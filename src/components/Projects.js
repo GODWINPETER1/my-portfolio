@@ -67,13 +67,13 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first"> Project Section One </Nav.Link>
+                      <Nav.Link eventKey="first"> Frontend Project </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="connect">Project Section Two </Nav.Link>
+                      <Nav.Link eventKey="connect">Full Stack Project </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third"> Project Section Three </Nav.Link>
+                      <Nav.Link eventKey="third"> Wordpress Project </Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
