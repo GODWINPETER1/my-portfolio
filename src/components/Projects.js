@@ -41,10 +41,10 @@ export const Projects = () => {
       link: "https://ai-landing-page-gilt.vercel.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "E-commerce Website",
+      description: "Design & Development using React , Tailwing and Redux Toolkit",
       imgUrl: projImg3,
-      link: "https://nike-landing-page-3v7u99jdl-godwin-peters-projects.vercel.app/"
+      link: "https://e-shopping-mocha.vercel.app/"
     },
   ];
 
@@ -70,7 +70,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="first"> Project Section One </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Project Section Two </Nav.Link>
+                      <Nav.Link eventKey="connect">Project Section Two </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third"> Project Section Three </Nav.Link>
@@ -91,10 +91,10 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane eventKey="">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
