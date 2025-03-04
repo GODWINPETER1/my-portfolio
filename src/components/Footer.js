@@ -4,29 +4,44 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import phoneIcon from "../assets/img/phon.svg";
+import email from "../assets/img/email.svg";
 
 export const Footer = () => {
   const date = new Date();
-  const year = date.getFullYear()
-  
+  const year = date.getFullYear();
+
   return (
-    <footer className="footer">
+    <footer className="footer py-4 bg-dark text-white">
       <Container>
-        <Row className="align-items-center">
-          <MailchimpForm />
-          <Col size={12} sm={6}>
-            <h1 className="header"> Godwin </h1>
+        <Row className="align-items-center text-center text-md-start">
+          <Col xs={12} md={4} className="mb-3 mb-md-0">
+            <h1 className="header">Godwin</h1>
           </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a href="https://www.linkedin.com/in/godwin-peter-b1279a220/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+          
+          <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-3 mb-md-0">
+            <div className="d-flex align-items-center ">
+              <img src={email} alt="Email" className="email"  width={20} height={20} />
+              <span>petergodwin432@gmail.com</span>
             </div>
-            <p>Copyright {year}. All Rights Reserved</p>
+          </Col>
+          
+          <Col xs={12} md={4} className="text-center text-md-end">
+            <div className="social-icon mb-2">
+              <a href="https://www.linkedin.com/in/godwin-peter-b1279a220/">
+                <img src={navIcon1} alt="LinkedIn" width={30} height={30} />
+              </a>
+              <a href="#">
+                <img src={navIcon2} alt="Icon" width={30} height={30} />
+              </a>
+              <a href="#">
+                <img src={navIcon3} alt="Icon" width={30} height={30} />
+              </a>
+            </div>
+            <p className="mb-0">Copyright {year}. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
     </footer>
-  )
-}
+  );
+};
