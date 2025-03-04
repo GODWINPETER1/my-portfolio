@@ -35,10 +35,10 @@ export const Projects = () => {
       link: "https://toursim-website-lkpa.vercel.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Ai-landing Page",
+      description: "Design & Development using React , vite and Tailwind",
       imgUrl: projImg2,
-      link: "https://nike-landing-page-3v7u99jdl-godwin-peters-projects.vercel.app/"
+      link: "https://ai-landing-page-gilt.vercel.app/"
     },
     {
       title: "Business Startup",
