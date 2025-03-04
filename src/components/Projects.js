@@ -13,7 +13,7 @@ export const Projects = () => {
     {
       title: "Nike Landing Page",
       description: "Responsive react js website",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
       link: "https://nike-landing-page-3v7u99jdl-godwin-peters-projects.vercel.app/"
     },
     {
@@ -31,7 +31,7 @@ export const Projects = () => {
     {
       title: "Tourism Website",
       description: "Design & Development using React , Typescript and Vite",
-      imgUrl: projImg1,
+      imgUrl: projImg2,
       link: "https://toursim-website-lkpa.vercel.app/"
     },
     {
