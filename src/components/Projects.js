@@ -18,7 +18,7 @@ export const Projects = () => {
     },
     {
       title: "Coffee Shop ",
-      description: "Responsive react js website",
+      description: "Responsive react js and bootstrap website",
       imgUrl: projImg2,
       link: "https://velvety-lebkuchen-52708b.netlify.app"
     },
@@ -57,17 +57,23 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>
+                    In this section, I showcase some of the projects I've worked on, each representing a unique
+                    challenge and learning opportunity. From designing user-friendly interfaces to building robust
+                    backend systems, these projects highlight my skills in problem-solving, creativity, and technical
+                    expertise. Each card provides a glimpse into the tools, technologies, and processes I used, along with
+                    the impact and outcomes achieved. Feel free to explore and get a closer look at how i bring ideas to life!
+                </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first"> Project Section One </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Project Section Two </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third"> Project Section Three </Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
