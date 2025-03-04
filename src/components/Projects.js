@@ -29,10 +29,10 @@ export const Projects = () => {
       link: "https://www.pressconn.co.tz/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Tourism Website",
+      description: "Design & Development using React , Typescript and Vite",
       imgUrl: projImg1,
-      link: "https://nike-landing-page-3v7u99jdl-godwin-peters-projects.vercel.app/"
+      link: "https://toursim-website-lkpa.vercel.app/"
     },
     {
       title: "Business Startup",
