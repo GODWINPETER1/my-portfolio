@@ -14,7 +14,7 @@ export const Projects = () => {
       title: "Nike Landing Page",
       description: "Responsive react js website",
       imgUrl: projImg2,
-      link: "https://nike-landing-page-3v7u99jdl-godwin-peters-projects.vercel.app/"
+      link: "https://nike-landing-page-ruddy-three.vercel.app/"
     },
     {
       title: "Coffee Shop ",
@@ -65,7 +65,7 @@ export const Projects = () => {
                     the impact and outcomes achieved. Feel free to explore and get a closer look at how i bring ideas to life!
                 </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                  <Nav variant="pills" className="nav-pills  mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first"> Frontend Project </Nav.Link>
                     </Nav.Item>
