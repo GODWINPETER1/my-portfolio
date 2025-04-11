@@ -21,8 +21,8 @@ export const Footer = () => {
           
           <Col xs={12} md={4} className="d-flex flex-column align-items-center mb-3 mb-md-0">
             <div className="d-flex align-items-center ">
-              <img src={email} alt="Email" className="email"  width={20} height={20} />
-              <span>petergodwin432@gmail.com</span>
+              
+              <p className="mb-0">Copyright {year}. All Rights Reserved</p>
             </div>
           </Col>
           
@@ -32,7 +32,7 @@ export const Footer = () => {
                 <img src={navIcon1} alt="LinkedIn" width={30} height={30} />
               </a>
             </div>
-            <p className="mb-0">Copyright {year}. All Rights Reserved</p>
+            
           </Col>
         </Row>
       </Container>
