@@ -24,9 +24,9 @@ export const Projects = () => {
     },
     {
       title: "Client Website",
-      description: "Design & Development Using Drupal",
+      description: "Design & Development Using Wordpress",
       imgUrl: projImg3,
-      link: "https://www.pressconn.co.tz/"
+      link: "https://www.famhub.co.tz/"
     },
     {
       title: "Tourism Website",
