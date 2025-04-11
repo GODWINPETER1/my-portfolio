@@ -31,12 +31,6 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/godwin-peter-b1279a220/">
                 <img src={navIcon1} alt="LinkedIn" width={30} height={30} />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="Icon" width={30} height={30} />
-              </a>
-              <a href="#">
-                <img src={navIcon3} alt="Icon" width={30} height={30} />
-              </a>
             </div>
             <p className="mb-0">Copyright {year}. All Rights Reserved</p>
           </Col>

@@ -16,36 +16,42 @@ export const Projects = () => {
       imgUrl: projImg2,
       link: "https://nike-landing-page-ruddy-three.vercel.app/"
     },
+    
     {
       title: "Coffee Shop ",
       description: "Responsive react js and bootstrap website",
       imgUrl: projImg2,
       link: "https://velvety-lebkuchen-52708b.netlify.app"
     },
+
     {
       title: "Client Website",
       description: "Design & Development Using Wordpress",
       imgUrl: projImg3,
       link: "https://www.famhub.co.tz/"
     },
+
     {
       title: "Tourism Website",
       description: "Design & Development using React , Typescript and Vite",
       imgUrl: projImg2,
       link: "https://toursim-website-lkpa.vercel.app/"
     },
+
     {
       title: "Ai-landing Page",
       description: "Design & Development using React , vite and Tailwind",
       imgUrl: projImg2,
       link: "https://ai-landing-page-gilt.vercel.app/"
     },
+
     {
       title: "E-commerce Website",
       description: "Design & Development using React , Tailwing and Redux Toolkit",
       imgUrl: projImg3,
       link: "https://e-shopping-mocha.vercel.app/"
     },
+
   ];
 
   return (
@@ -64,17 +70,13 @@ export const Projects = () => {
                     expertise. Each card provides a glimpse into the tools, technologies, and processes I used, along with
                     the impact and outcomes achieved. Feel free to explore and get a closer look at how i bring ideas to life!
                 </p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Tab.Container defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills  mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first"> Frontend Project </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Full Stack Project </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="first"> Wordpress Project </Nav.Link>
-                    </Nav.Item>
+                    
+                    
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
